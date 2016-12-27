@@ -20,9 +20,6 @@ var spawn;
 var score = 0;
 var dinoFrame = 0;
 var dinoMoving = false;
-//The image used for the player
-var playerImage = new Image();
-playerImage.src = 'Images/tanner.png';
 //Image used for tannerdactyl eggs
 var eggImage = new Image();
 eggImage.src = 'Images/egg.png';

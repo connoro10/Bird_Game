@@ -44,7 +44,7 @@ canvas,
     background-color: #ffaa00;
 }
 
-#score {
+#score, #loading, #instructions {
     border-color: black;
     border-style: outset;
     text-align: center;
@@ -61,6 +61,13 @@ canvas,
     color: #4d88ff;
     font-family: Arial, Tahoma, sans-serif;
     font-size: 18px;
+}
+#instructions
+{
+    width: 15em;
+    height: 5em;
+    margin-left: 0;
+    margin-top: 0;
 }
 
 #debug {
